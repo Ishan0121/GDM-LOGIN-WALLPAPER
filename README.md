@@ -1,4 +1,4 @@
-# Specter's GDM Login Screen Wizard 🧙‍♂️✨
+# GDM Login Screen Wizard 🧙‍♂️✨
 
 A simple yet powerful set of bash scripts to **backup**, **change**, and **restore** the GNOME Display Manager (GDM) login screen wallpaper on Fedora Workstation (tested on Fedora 42 with GNOME 48.2).
 
