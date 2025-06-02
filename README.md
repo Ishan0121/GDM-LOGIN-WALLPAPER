@@ -28,7 +28,7 @@ Fedora's GDM login screen wallpaper isn't easily customizable by default. These 
 1. **Clone this repo or download scripts**
 
 ```bash
-git clone https://github.com/YourUsername/gdm-login-wallpaper-wizard.git
+git clone https://github.com/Ishan0121/GDM-LOGIN-WALLPAPER.git
 cd gdm-login-wallpaper-wizard
 chmod +x *.sh
 ````
