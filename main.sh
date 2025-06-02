@@ -5,10 +5,11 @@ echo
 echo "Choose an option:"
 echo "1. 🧾 Backup current theme (recommended if using the script for the first time)"
 echo "2. 🖼️ Change GDM login wallpaper"
-echo "3. 🧹 Restore original GDM theme"
+echo "3. 🧹 Restore GDM theme from backup"
+echo "4. 🧽 Restore to default GDM theme"
 echo
 
-read -rp "Enter choice [1/2/3]: " choice
+read -rp "Enter choice [1/2/3/4]: " choice
 echo
 
 # Get directory where script is located
@@ -32,6 +33,13 @@ case $choice in
     3)
         if [[ -f "$SCRIPT_DIR/restore-theme.sh" ]]; then
             bash "$SCRIPT_DIR/restore-theme.sh"
+        else
+            echo "❌ Restore script not found!"
+        fi
+        ;;
+    4)
+        if [[ -f "$SCRIPT_DIR/back_to_default/restore-default.sh" ]]; then
+            bash "$SCRIPT_DIR/back_to_default/restore-default.sh"
         else
             echo "❌ Restore script not found!"
         fi
