@@ -6,7 +6,7 @@ echo "Choose an option:"
 echo "1. 🧾 Backup current theme (recommended if using the script for the first time)"
 echo "2. 🖼️ Change GDM login wallpaper"
 echo "3. 🧹 Restore GDM theme from backup"
-echo "4. 🧽 Restore to default GDM theme"
+echo "4. 🧽 Restore to default GDM theme(fedora 42)"
 echo
 
 read -rp "Enter choice [1/2/3/4]: " choice

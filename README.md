@@ -47,6 +47,7 @@ mv GDM-LOGIN-WALLPAPER gdm-login-wizard # optional
 - `1` to backup your current theme (always do this first!)
 - `2` to change the login wallpaper (make sure your desired wallpaper is in the correct path as specified in `set-wallpaper.sh`)
 - `3` to restore the original theme from backup
+- `4` to restore to default GDM theme(fedora 42).
 
 ---
 
@@ -61,14 +62,14 @@ mv GDM-LOGIN-WALLPAPER gdm-login-wizard # optional
 
 ## Customize Your Wallpaper
 
-- Place your desired wallpaper in the location specified by `set-wallpaper.sh` (default: `./wallpapers/login-wallpaper.jpg`).
-- Modify the script if you want to use a different image or location.
+- you can place your desired wallpaper in the any location.
+- The script will ask for full path for the wallpaper (I just copy the image and paste it there).
 
 ---
 
 ## Troubleshooting
 
-- If you experience a broken GDM or UI glitches, use option `3` in the wizard to restore the original theme.
+- If you experience a broken GDM or UI glitches, use option `3`or`4` in the wizard to restore the original theme.
 - Always run the backup script before making changes.
 
 ---
