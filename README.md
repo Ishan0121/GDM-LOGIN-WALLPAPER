@@ -20,26 +20,29 @@ Fedora's GDM login screen wallpaper isn't easily customizable by default. These 
 - `backup-theme.sh` — Backs up your current GDM theme locally and system-wide.
 - `set-wallpaper.sh` — Changes the GDM login wallpaper.
 - `restore-theme.sh` — Restores the GDM theme from backup.
+- `back_to_default/restore-default.sh` — Restores the GDM theme to the default(fedora 42).
 
 ---
 
 ## Usage
 
-1. **Clone this repo or download scripts**
+1- **Clone this repo or download scripts**
 
 ```bash
 git clone https://github.com/Ishan0121/GDM-LOGIN-WALLPAPER.git
 cd GDM-LOGIN-WALLPAPER
+rm -rf .git
 chmod +x *.sh
+mv GDM-LOGIN-WALLPAPER gdm-login-wizard # optional
 ````
 
-2. **Run the main wizard script**
+2- **Run the main wizard script**
 
 ```bash
 ./main.sh
 ```
 
-3. **Choose your option**
+3- **Choose your option**
 
 - `1` to backup your current theme (always do this first!)
 - `2` to change the login wallpaper (make sure your desired wallpaper is in the correct path as specified in `set-wallpaper.sh`)
@@ -81,4 +84,3 @@ Feel free to open issues or submit pull requests! Help make this tool more magic
 MIT License — use freely, just don’t hex the code 😜
 
 ---
-

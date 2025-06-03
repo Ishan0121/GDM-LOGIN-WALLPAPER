@@ -9,7 +9,7 @@ RESOURCE="/usr/share/gnome-shell/gnome-shell-theme.gresource"
 BACKUP="/usr/share/gnome-shell/gnome-shell-theme.gresource.bak"
 WALLPAPER_NAME="login-wallpaper"
 
-read -rp "🖼️ Full path to wallpaper image (PNG or JPG): " USER_WALLPAPER
+read -rp "🖼️ Full path to wallpaper image (PNG or JPG or JPEG or WEBP): " USER_WALLPAPER
 if [ ! -f "$USER_WALLPAPER" ]; then
   echo "❌ File not found: $USER_WALLPAPER"
   exit 1
