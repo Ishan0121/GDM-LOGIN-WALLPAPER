@@ -34,16 +34,23 @@ git clone https://github.com/Ishan0121/GDM-LOGIN-WALLPAPER.git
 cd GDM-LOGIN-WALLPAPER
 rm -rf .git
 chmod +x *.sh
-mv GDM-LOGIN-WALLPAPER gdm-login-wizard # optional
+```
+
+2- **change dir name (optional)**
+
+```bash
+cd ..
+mv GDM-LOGIN-WALLPAPER gdm-login-wizard 
+cd gdm-login-wizard
 ````
 
-2- **Run the main wizard script**
+3- **Run the main wizard script**
 
 ```bash
 ./main.sh
 ```
 
-3- **Choose your option**
+4- **Choose your option**
 
 - `1` to backup your current theme (always do this first!)
 - `2` to change the login wallpaper (make sure your desired wallpaper is in the correct path as specified in `set-wallpaper.sh`)
