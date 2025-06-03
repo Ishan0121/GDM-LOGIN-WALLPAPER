@@ -70,8 +70,8 @@ cd gdm-login-wizard
 
 ## Customize Your Wallpaper
 
-- I've added some wallpapers though you can find many good repos with great wallpapers out there.
-- The script will ask for full path for the wallpaper (I just copy the image and paste it there).
+- You can add wallpaper from any location.
+- The script will ask for full path for the wallpaper.
 
 ---
 
